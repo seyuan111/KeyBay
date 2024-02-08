@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 const NewsLetter = () => {
   return (
-    <div className="w-full py-16 text-black bg-slate-500 px-4">
+    <div className="w-full py-12 text-black bg-slate-500 px-4">
     <div className="max-w-[1240px] mx-auto grid lg:grid-col-3">
         <div className="lg:col-span-2 my-4">
             <h1 className="md:text-5xl sm:text-4xl text-2xl font-bold py-2">Want to receive news on KeyBay?</h1>

@@ -23,6 +23,7 @@ const NavBar = () => {
                     <li className="ml-6 cursor-pointer font-bold"><Link to="/Keys">Keys</Link></li>
                     <li className="ml-6 cursor-pointer font-bold"><Link to="/Contact">Contact</Link></li>
                     <button className="ml-6 cursor-pointer font-bold"><Link to="/Login">Login</Link></button>
+                    <button className="ml-6 cursor-pointer font-bold"><Link to="/Checkout">Checkout</Link></button>
                 </ul>
             </div>
 
@@ -35,7 +36,8 @@ const NavBar = () => {
                     <li className="ml-4 mb-4 cursor-pointer font-bold"><Link to="/About">About</Link></li>
                     <li className="ml-4 mb-4 cursor-pointer font-bold"><Link to="/Keys">Keys</Link></li>
                     <li className="ml-4 mb-4 cursor-pointer font-bold"><Link to="/Contact">Contact</Link></li>
-                    <button className="ml-4 cursor-pointer font-bold"><Link to="/Login">Login</Link></button>
+                    <button className="ml-4 mb-4 cursor-pointer font-bold"><Link to="/Login">Login</Link></button>
+                    <li className="ml-4 cursor-pointer font-bold"><Link to="/Checkout">Checkout</Link></li>
                 </ul>
             </div>
 
